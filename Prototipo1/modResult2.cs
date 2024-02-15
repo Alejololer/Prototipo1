@@ -24,10 +24,6 @@ namespace Prototipo1
             // Muestra Form1 cuando Form2 se cierre
             this.Owner.Show();
         }
-        private void modResult2_Load(object sender, EventArgs e)
-        {
-
-        }
 
         private void button1_Click(object sender, EventArgs e)
         {

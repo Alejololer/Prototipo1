@@ -18,10 +18,5 @@ namespace Prototipo1
             this.StartPosition = FormStartPosition.CenterScreen;
 
         }
-
-        private void consUsu_Load(object sender, EventArgs e)
-        {
-
-        }
     }
 }

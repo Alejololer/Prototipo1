@@ -19,10 +19,6 @@ namespace Prototipo1
 
         }
 
-        private void actPedido2_Load(object sender, EventArgs e)
-        {
-
-        }
         private void Form2_FormClosed(object sender, FormClosedEventArgs e)
         {
             // Muestra Form1 cuando Form2 se cierre

@@ -23,10 +23,5 @@ namespace Prototipo1
             MessageBox.Show("Pedido no encontrado", "Generación de factura", MessageBoxButtons.OK, MessageBoxIcon.Error);
 
         }
-
-        private void genFact_Load(object sender, EventArgs e)
-        {
-
-        }
     }
 }

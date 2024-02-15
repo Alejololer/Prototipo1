@@ -34,10 +34,5 @@ namespace Prototipo1
 
             this.Close();
         }
-
-        private void anulFac_Load(object sender, EventArgs e)
-        {
-
-        }
     }
 }

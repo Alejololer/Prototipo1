@@ -18,10 +18,6 @@ namespace Prototipo1
             this.StartPosition = FormStartPosition.CenterScreen;
         }
 
-        private void darDeBaja_Load(object sender, EventArgs e)
-        {
-        }
-
         private void button1_Click(object sender, EventArgs e)
         {
             DialogResult result = MessageBox.Show("¿Está seguro?", "Dar de Baja", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
@@ -34,11 +30,6 @@ namespace Prototipo1
             {
 
             }
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

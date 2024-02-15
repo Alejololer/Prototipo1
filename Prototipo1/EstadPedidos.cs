@@ -16,13 +16,6 @@ namespace Prototipo1
         {
             InitializeComponent();
             this.StartPosition = FormStartPosition.CenterScreen;
-        }
-
-        private void EstadPedidos_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        
+        }        
     }
 }

@@ -24,10 +24,5 @@ namespace Prototipo1
             MessageBox.Show("Datos actualizados correctamente", "Actualización de Usuario", MessageBoxButtons.OK, MessageBoxIcon.Information);
             this.Close();
         }
-
-        private void actUsu_Load(object sender, EventArgs e)
-        {
-
-        }
     }
 }

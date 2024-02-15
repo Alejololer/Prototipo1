@@ -40,9 +40,10 @@
             // 
             // button1
             // 
-            button1.Location = new Point(159, 165);
+            button1.Location = new Point(181, 218);
+            button1.Margin = new Padding(3, 4, 3, 4);
             button1.Name = "button1";
-            button1.Size = new Size(75, 23);
+            button1.Size = new Size(86, 31);
             button1.TabIndex = 27;
             button1.Text = "Actualizar";
             button1.UseVisualStyleBackColor = true;
@@ -50,17 +51,18 @@
             // 
             // textBox2
             // 
-            textBox2.Location = new Point(142, 120);
+            textBox2.Location = new Point(173, 168);
+            textBox2.Margin = new Padding(3, 4, 3, 4);
             textBox2.Name = "textBox2";
-            textBox2.Size = new Size(228, 23);
+            textBox2.Size = new Size(249, 27);
             textBox2.TabIndex = 26;
             // 
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(65, 123);
+            label4.Location = new Point(27, 171);
             label4.Name = "label4";
-            label4.Size = new Size(71, 15);
+            label4.Size = new Size(89, 20);
             label4.TabIndex = 25;
             label4.Text = "Dato nuevo:";
             // 
@@ -68,33 +70,35 @@
             // 
             comboBox1.FormattingEnabled = true;
             comboBox1.Items.AddRange(new object[] { "Nombre de usuario", "Contraseña" });
-            comboBox1.Location = new Point(142, 83);
+            comboBox1.Location = new Point(173, 117);
+            comboBox1.Margin = new Padding(3, 4, 3, 4);
             comboBox1.Name = "comboBox1";
-            comboBox1.Size = new Size(228, 23);
+            comboBox1.Size = new Size(249, 28);
             comboBox1.TabIndex = 24;
             // 
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(38, 86);
+            label3.Location = new Point(27, 121);
             label3.Name = "label3";
-            label3.Size = new Size(98, 15);
+            label3.Size = new Size(125, 20);
             label3.TabIndex = 23;
             label3.Text = "Dato a modificar:";
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(142, 46);
+            textBox1.Location = new Point(173, 67);
+            textBox1.Margin = new Padding(3, 4, 3, 4);
             textBox1.Name = "textBox1";
-            textBox1.Size = new Size(228, 23);
+            textBox1.Size = new Size(249, 27);
             textBox1.TabIndex = 22;
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(24, 49);
+            label2.Location = new Point(27, 70);
             label2.Name = "label2";
-            label2.Size = new Size(112, 15);
+            label2.Size = new Size(140, 20);
             label2.TabIndex = 21;
             label2.Text = "Nombre de usuario:";
             // 
@@ -102,17 +106,17 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(12, 9);
+            label1.Location = new Point(109, 12);
             label1.Name = "label1";
-            label1.Size = new Size(179, 25);
+            label1.Size = new Size(224, 32);
             label1.TabIndex = 20;
-            label1.Text = "Actualizar Usuario:";
+            label1.Text = "Actualizar Usuario";
             // 
             // actUsu
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(393, 200);
+            ClientSize = new Size(449, 267);
             Controls.Add(button1);
             Controls.Add(textBox2);
             Controls.Add(label4);
@@ -121,9 +125,9 @@
             Controls.Add(textBox1);
             Controls.Add(label2);
             Controls.Add(label1);
+            Margin = new Padding(3, 4, 3, 4);
             Name = "actUsu";
-            Text = "actUsu";
-            Load += actUsu_Load;
+            Text = "Actualizacion Usuario";
             ResumeLayout(false);
             PerformLayout();
         }

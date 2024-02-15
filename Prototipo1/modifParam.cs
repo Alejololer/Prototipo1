@@ -24,10 +24,5 @@ namespace Prototipo1
             MessageBox.Show("Parámetros modificados correctamente", "Modificación de Parámetros", MessageBoxButtons.OK, MessageBoxIcon.Information);
             this.Close();
         }
-
-        private void modifParam_Load(object sender, EventArgs e)
-        {
-
-        }
     }
 }

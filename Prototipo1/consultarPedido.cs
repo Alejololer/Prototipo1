@@ -18,15 +18,5 @@ namespace Prototipo1
             this.StartPosition = FormStartPosition.CenterScreen;
 
         }
-
-        private void richTextBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void consultarPedido_Load(object sender, EventArgs e)
-        {
-
-        }
     }
 }

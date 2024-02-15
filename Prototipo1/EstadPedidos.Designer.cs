@@ -36,30 +36,31 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(12, 9);
+            label1.Location = new Point(83, 12);
             label1.Name = "label1";
-            label1.Size = new Size(218, 25);
+            label1.Size = new Size(277, 32);
             label1.TabIndex = 13;
-            label1.Text = "Estadísticas de Pedidos:";
+            label1.Text = "Estadísticas de Pedidos";
             // 
             // richTextBox1
             // 
-            richTextBox1.Location = new Point(12, 37);
+            richTextBox1.Location = new Point(14, 49);
+            richTextBox1.Margin = new Padding(3, 4, 3, 4);
             richTextBox1.Name = "richTextBox1";
-            richTextBox1.Size = new Size(363, 103);
+            richTextBox1.Size = new Size(414, 136);
             richTextBox1.TabIndex = 18;
             richTextBox1.Text = "Exámenes realizados hasta la fecha:\nNULL\nExamen más común:\nTipo de Examen Placeholder\nDoctor con mayor cantidad de pedidos asociados:\nNombre de Doctor Placeholder";
             // 
             // EstadPedidos
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(387, 154);
+            ClientSize = new Size(442, 205);
             Controls.Add(richTextBox1);
             Controls.Add(label1);
+            Margin = new Padding(3, 4, 3, 4);
             Name = "EstadPedidos";
-            Text = "EstadPedidos";
-            Load += EstadPedidos_Load;
+            Text = "Estadistica de Pedidos";
             ResumeLayout(false);
             PerformLayout();
         }
