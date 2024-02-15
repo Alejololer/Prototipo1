@@ -42,9 +42,10 @@
             // 
             // button2
             // 
-            button2.Location = new Point(251, 124);
+            button2.Location = new Point(217, 171);
+            button2.Margin = new Padding(3, 4, 3, 4);
             button2.Name = "button2";
-            button2.Size = new Size(75, 23);
+            button2.Size = new Size(86, 31);
             button2.TabIndex = 56;
             button2.Text = "Cancelar";
             button2.UseVisualStyleBackColor = true;
@@ -52,9 +53,10 @@
             // 
             // button1
             // 
-            button1.Location = new Point(157, 124);
+            button1.Location = new Point(49, 171);
+            button1.Margin = new Padding(3, 4, 3, 4);
             button1.Name = "button1";
-            button1.Size = new Size(75, 23);
+            button1.Size = new Size(86, 31);
             button1.TabIndex = 55;
             button1.Text = "Modificar";
             button1.UseVisualStyleBackColor = true;
@@ -63,59 +65,61 @@
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(206, 93);
+            label4.Location = new Point(217, 122);
             label4.Name = "label4";
-            label4.Size = new Size(123, 15);
+            label4.Size = new Size(156, 20);
             label4.TabIndex = 54;
             label4.Text = "Rango normal: 10-100";
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(206, 54);
+            label1.Location = new Point(217, 73);
             label1.Name = "label1";
-            label1.Size = new Size(123, 15);
+            label1.Size = new Size(156, 20);
             label1.TabIndex = 53;
             label1.Text = "Rango normal: 10-100";
             // 
             // textBox2
             // 
-            textBox2.Location = new Point(90, 90);
+            textBox2.Location = new Point(83, 119);
+            textBox2.Margin = new Padding(3, 4, 3, 4);
             textBox2.Name = "textBox2";
-            textBox2.Size = new Size(100, 23);
+            textBox2.Size = new Size(114, 27);
             textBox2.TabIndex = 52;
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(90, 51);
+            textBox1.Location = new Point(83, 70);
+            textBox1.Margin = new Padding(3, 4, 3, 4);
             textBox1.Name = "textBox1";
-            textBox1.Size = new Size(100, 23);
+            textBox1.Size = new Size(114, 27);
             textBox1.TabIndex = 51;
             // 
             // label3
             // 
             label3.AutoSize = true;
             label3.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label3.Location = new Point(12, 9);
+            label3.Location = new Point(14, 12);
             label3.Name = "label3";
-            label3.Size = new Size(0, 25);
+            label3.Size = new Size(0, 32);
             label3.TabIndex = 50;
             // 
             // label7
             // 
             label7.AutoSize = true;
-            label7.Location = new Point(20, 93);
+            label7.Location = new Point(-4, 122);
             label7.Name = "label7";
-            label7.Size = new Size(64, 15);
+            label7.Size = new Size(81, 20);
             label7.TabIndex = 49;
             label7.Text = "Reactivo 2:";
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(20, 54);
+            label2.Location = new Point(-4, 73);
             label2.Name = "label2";
-            label2.Size = new Size(64, 15);
+            label2.Size = new Size(81, 20);
             label2.TabIndex = 48;
             label2.Text = "Reactivo 1:";
             // 
@@ -123,17 +127,17 @@
             // 
             label5.AutoSize = true;
             label5.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label5.Location = new Point(20, 9);
+            label5.Location = new Point(-4, 12);
             label5.Name = "label5";
-            label5.Size = new Size(311, 25);
+            label5.Size = new Size(394, 32);
             label5.TabIndex = 57;
-            label5.Text = "Modificar Resultados del Examen:";
+            label5.Text = "Modificar Resultados del Examen";
             // 
             // modResult2
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(338, 161);
+            ClientSize = new Size(386, 215);
             Controls.Add(label5);
             Controls.Add(button2);
             Controls.Add(button1);
@@ -144,9 +148,9 @@
             Controls.Add(label3);
             Controls.Add(label7);
             Controls.Add(label2);
+            Margin = new Padding(3, 4, 3, 4);
             Name = "modResult2";
-            Text = "modResult2";
-            Load += modResult2_Load;
+            Text = "Modificar Resultado";
             ResumeLayout(false);
             PerformLayout();
         }
