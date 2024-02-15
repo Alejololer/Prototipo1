@@ -34,6 +34,7 @@
             textBox2 = new TextBox();
             button1 = new Button();
             button2 = new Button();
+            label3 = new Label();
             SuspendLayout();
             // 
             // label1
@@ -96,11 +97,22 @@
             button2.UseVisualStyleBackColor = true;
             button2.Click += button2_Click;
             // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label3.Location = new Point(280, 38);
+            label3.Name = "label3";
+            label3.Size = new Size(129, 32);
+            label3.TabIndex = 6;
+            label3.Text = "AmatreSis";
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(500, 298);
+            Controls.Add(label3);
             Controls.Add(button2);
             Controls.Add(button1);
             Controls.Add(textBox2);
@@ -122,5 +134,6 @@
         private TextBox textBox2;
         private Button button1;
         private Button button2;
+        private Label label3;
     }
 }
