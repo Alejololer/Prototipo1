@@ -24,10 +24,5 @@ namespace Prototipo1
             MessageBox.Show("Tipo de examen no encontrado", "Consulta de tipo de examen", MessageBoxButtons.OK, MessageBoxIcon.Error);
 
         }
-
-        private void consExam_Load(object sender, EventArgs e)
-        {
-
-        }
     }
 }
