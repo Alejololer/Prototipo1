@@ -18,11 +18,6 @@ namespace Prototipo1
             this.StartPosition = FormStartPosition.CenterScreen;
         }
 
-        private void consResult2_Load(object sender, EventArgs e)
-        {
-
-        }
-
         private void Form2_FormClosed(object sender, FormClosedEventArgs e)
         {
             // Muestra Form1 cuando Form2 se cierre
