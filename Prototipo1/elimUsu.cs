@@ -10,33 +10,32 @@ using System.Windows.Forms;
 
 namespace Prototipo1
 {
-    public partial class darDeBaja : Form
+    public partial class elimUsu : Form
     {
-        public darDeBaja()
+        public elimUsu()
         {
             InitializeComponent();
             this.StartPosition = FormStartPosition.CenterScreen;
-        }
 
-        private void darDeBaja_Load(object sender, EventArgs e)
-        {
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            DialogResult result = MessageBox.Show("¿Está seguro?", "Dar de Baja", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+            // Enviar un mensaje
+            DialogResult result = MessageBox.Show("¿Está seguro?", "Eliminación de Usuario", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
             if (result == DialogResult.Yes)
             {
-                MessageBox.Show("Paciente dado de baja", "Dar de Baja", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                this.Close();
+                MessageBox.Show("Usuario eliminado", "Eliminación de Usuario", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             else
             {
 
             }
+
+            this.Close();
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        private void elimUsu_Load(object sender, EventArgs e)
         {
 
         }

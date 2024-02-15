@@ -10,11 +10,18 @@ using System.Windows.Forms;
 
 namespace Prototipo1
 {
-    public partial class Ventas : Form
+    public partial class consUsu : Form
     {
-        public Ventas()
+        public consUsu()
         {
             InitializeComponent();
+            this.StartPosition = FormStartPosition.CenterScreen;
+
+        }
+
+        private void consUsu_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -117,4 +117,28 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="richTextBox1.Text" xml:space="preserve">
+    <value>Usuario 1
+Nombre de usuario:
+NombreDeUsuario
+Contraseña:
+Contraseña1
+Tipo de Usuario:
+Jefe de Laboratorio
+Usuario 2
+Nombre de usuario:
+NombreDeUsuario
+Contraseña:
+Contraseña2
+Tipo de Usuario:
+Asistente de Laboratorio
+Usuario 3
+Nombre de usuario:
+NombreDeUsuario
+Contraseña:
+Contraseña3
+Tipo de Usuario:
+Invitado
+</value>
+  </data>
 </root>

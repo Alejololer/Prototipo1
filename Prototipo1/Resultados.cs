@@ -26,6 +26,11 @@ namespace Prototipo1
             }
         }
 
+        private void Form2_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            // Muestra Form1 cuando Form2 se cierre
+            this.Owner.Show();
+        }
         // Controlador de eventos para cuando el mouse entra en un botón
         private void Boton_MouseEnter(object? sender, EventArgs e)
         {
@@ -53,11 +58,6 @@ namespace Prototipo1
 
         }
 
-        private void Form2_FormClosed(object sender, FormClosedEventArgs e)
-        {
-            // Muestra Form1 cuando Form2 se cierre
-            this.Owner.Show();
-        }
 
         private void button1_Click(object sender, EventArgs e)
         {

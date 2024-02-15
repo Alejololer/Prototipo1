@@ -1,6 +1,6 @@
 ﻿namespace Prototipo1
 {
-    partial class darDeBaja
+    partial class consInfVent
     {
         /// <summary>
         /// Required designer variable.
@@ -28,37 +28,18 @@
         /// </summary>
         private void InitializeComponent()
         {
-            button1 = new Button();
-            textBox1 = new TextBox();
-            label2 = new Label();
+            richTextBox1 = new RichTextBox();
             label1 = new Label();
+            button1 = new Button();
             SuspendLayout();
             // 
-            // button1
+            // richTextBox1
             // 
-            button1.Location = new Point(153, 91);
-            button1.Name = "button1";
-            button1.Size = new Size(75, 23);
-            button1.TabIndex = 24;
-            button1.Text = "Confirmar";
-            button1.UseVisualStyleBackColor = true;
-            button1.Click += button1_Click;
-            // 
-            // textBox1
-            // 
-            textBox1.Location = new Point(142, 46);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(228, 23);
-            textBox1.TabIndex = 23;
-            // 
-            // label2
-            // 
-            label2.AutoSize = true;
-            label2.Location = new Point(20, 49);
-            label2.Name = "label2";
-            label2.Size = new Size(116, 15);
-            label2.TabIndex = 22;
-            label2.Text = "Cédula de Identidad:";
+            richTextBox1.Location = new Point(12, 37);
+            richTextBox1.Name = "richTextBox1";
+            richTextBox1.Size = new Size(371, 55);
+            richTextBox1.TabIndex = 20;
+            richTextBox1.Text = "Total de ingresos: NULL$\nExamen con mayores ingresos: Tipo de examen 1\nMes con mayores ingresos: NULL";
             // 
             // label1
             // 
@@ -66,32 +47,39 @@
             label1.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label1.Location = new Point(12, 9);
             label1.Name = "label1";
-            label1.Size = new Size(198, 25);
-            label1.TabIndex = 21;
-            label1.Text = "Dar de Baja Paciente:";
-            label1.Click += label1_Click;
+            label1.Size = new Size(175, 25);
+            label1.TabIndex = 19;
+            label1.Text = "Informe de Ventas";
             // 
-            // darDeBaja
+            // button1
+            // 
+            button1.Location = new Point(308, 109);
+            button1.Name = "button1";
+            button1.Size = new Size(75, 23);
+            button1.TabIndex = 21;
+            button1.Text = "Descargar";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
+            // 
+            // consInfVent
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(383, 128);
+            ClientSize = new Size(395, 144);
             Controls.Add(button1);
-            Controls.Add(textBox1);
-            Controls.Add(label2);
+            Controls.Add(richTextBox1);
             Controls.Add(label1);
-            Name = "darDeBaja";
-            Text = "darDeBaja";
-            Load += darDeBaja_Load;
+            Name = "consInfVent";
+            Text = "consInfVent";
+            Load += consInfVent_Load;
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
 
-        private Button button1;
-        private TextBox textBox1;
-        private Label label2;
+        private RichTextBox richTextBox1;
         private Label label1;
+        private Button button1;
     }
 }

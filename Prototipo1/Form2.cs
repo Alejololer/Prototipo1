@@ -101,13 +101,22 @@ namespace Prototipo1
 
         private void button3_Click(object sender, EventArgs e)
         {
-            Resultados resultados = new Resultados();
-            resultados.ShowDialog();
+            this.Hide();
+            // Crea una instancia del nuevo formulario
+            Resultados res = new Resultados();
+            res.FormClosed += (s, args) => this.Show(); // Suscribe al evento FormClosed de Form2
+            // Muestra el nuevo formulario
+            res.ShowDialog();
         }
 
         private void button5_Click(object sender, EventArgs e)
         {
-
+            this.Hide();
+            // Crea una instancia del nuevo formulario
+            submeVent vent = new submeVent();
+            vent.FormClosed += (s, args) => this.Show(); // Suscribe al evento FormClosed de Form2
+            // Muestra el nuevo formulario
+            vent.ShowDialog();
         }
 
         private void button6_Click(object sender, EventArgs e)
@@ -117,7 +126,12 @@ namespace Prototipo1
 
         private void button4_Click(object sender, EventArgs e)
         {
-
+            this.Hide();
+            // Crea una instancia del nuevo formulario
+            AdmSistema adm = new AdmSistema();
+            adm.FormClosed += (s, args) => this.Show(); // Suscribe al evento FormClosed de Form2
+            // Muestra el nuevo formulario
+            adm.ShowDialog();
         }
 
         private void vScrollBar1_Scroll(object sender, ScrollEventArgs e)

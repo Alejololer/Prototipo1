@@ -48,11 +48,11 @@
             // 
             label4.AutoSize = true;
             label4.Font = new Font("Arial Narrow", 12F);
-            label4.Location = new Point(338, 376);
+            label4.Location = new Point(331, 376);
             label4.Name = "label4";
-            label4.Size = new Size(78, 20);
+            label4.Size = new Size(93, 20);
             label4.TabIndex = 47;
-            label4.Text = "Dar de baja";
+            label4.Text = "Anular Factura";
             // 
             // label5
             // 
@@ -73,6 +73,7 @@
             button4.Size = new Size(134, 118);
             button4.TabIndex = 45;
             button4.UseVisualStyleBackColor = true;
+            button4.Click += button4_Click;
             // 
             // button5
             // 
@@ -84,6 +85,7 @@
             button5.Size = new Size(134, 118);
             button5.TabIndex = 44;
             button5.UseVisualStyleBackColor = true;
+            button5.Click += button5_Click;
             // 
             // label7
             // 
@@ -150,6 +152,7 @@
             button3.Size = new Size(134, 118);
             button3.TabIndex = 38;
             button3.UseVisualStyleBackColor = true;
+            button3.Click += button3_Click;
             // 
             // button2
             // 
@@ -160,6 +163,7 @@
             button2.Size = new Size(134, 118);
             button2.TabIndex = 37;
             button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
             // 
             // button1
             // 
@@ -171,12 +175,13 @@
             button1.Size = new Size(134, 118);
             button1.TabIndex = 36;
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // submeVent
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(575, 450);
+            ClientSize = new Size(575, 422);
             Controls.Add(label4);
             Controls.Add(label5);
             Controls.Add(button4);
@@ -191,6 +196,7 @@
             Controls.Add(button1);
             Name = "submeVent";
             Text = "submeVent";
+            Load += submeVent_Load;
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             ResumeLayout(false);

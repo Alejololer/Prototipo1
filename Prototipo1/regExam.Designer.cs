@@ -82,11 +82,11 @@
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(86, 81);
+            label3.Location = new Point(40, 81);
             label3.Name = "label3";
-            label3.Size = new Size(41, 15);
+            label3.Size = new Size(87, 15);
             label3.TabIndex = 28;
-            label3.Text = "Costo:";
+            label3.Text = "Costo (sin IVA):";
             // 
             // label2
             // 
