@@ -18,16 +18,6 @@ namespace Prototipo1
             this.StartPosition = FormStartPosition.CenterScreen;
         }
 
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label5_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void button1_Click(object sender, EventArgs e)
         {
             // Enviar un mensaje
@@ -36,14 +26,5 @@ namespace Prototipo1
             this.Close();
         }
 
-        private void button2_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
-
-        private void registrarPaciente_Load(object sender, EventArgs e)
-        {
-
-        }
     }
 }
