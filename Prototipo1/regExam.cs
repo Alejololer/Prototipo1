@@ -19,11 +19,6 @@ namespace Prototipo1
             richTextBox1.ReadOnly = true;
         }
 
-        private void regExam_Load(object sender, EventArgs e)
-        {
-
-        }
-
         private void richTextBox1_TextChanged(object sender, EventArgs e)
         {
             // Limpiar ComboBox2
@@ -48,7 +43,6 @@ namespace Prototipo1
         private void button6_Click(object sender, EventArgs e)
         {
             this.Close();
-
         }
 
         private void button4_Click(object sender, EventArgs e)
@@ -59,11 +53,6 @@ namespace Prototipo1
                 richTextBox1.Text = richTextBox1.Text.Remove(richTextBox1.GetFirstCharIndexFromLine(indiceSeleccionado), richTextBox1.Lines[indiceSeleccionado].Length).Trim();
                 comboBox2.Items.RemoveAt(indiceSeleccionado);
             }
-        }
-
-        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
         }
 
         private void comboBox2_SelectedIndexChanged(object sender, EventArgs e)
