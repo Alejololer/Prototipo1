@@ -38,6 +38,7 @@
             label4 = new Label();
             label3 = new Label();
             button1 = new Button();
+            label9 = new Label();
             panel1.SuspendLayout();
             SuspendLayout();
             // 
@@ -71,6 +72,7 @@
             // panel1
             // 
             panel1.BackColor = SystemColors.ButtonHighlight;
+            panel1.Controls.Add(label9);
             panel1.Controls.Add(label7);
             panel1.Controls.Add(label6);
             panel1.Controls.Add(label5);
@@ -78,8 +80,9 @@
             panel1.Controls.Add(label3);
             panel1.Location = new Point(12, 119);
             panel1.Name = "panel1";
-            panel1.Size = new Size(350, 196);
+            panel1.Size = new Size(350, 229);
             panel1.TabIndex = 12;
+            panel1.Paint += panel1_Paint;
             // 
             // label7
             // 
@@ -137,11 +140,20 @@
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
             // 
+            // label9
+            // 
+            label9.AutoSize = true;
+            label9.Location = new Point(62, 194);
+            label9.Name = "label9";
+            label9.Size = new Size(54, 15);
+            label9.TabIndex = 6;
+            label9.Text = "Historial:";
+            // 
             // consultarPaciente
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(374, 338);
+            ClientSize = new Size(374, 360);
             Controls.Add(button1);
             Controls.Add(panel1);
             Controls.Add(textBox1);
@@ -168,5 +180,6 @@
         private Label label3;
         private Label label7;
         private Button button1;
+        private Label label9;
     }
 }

@@ -157,6 +157,16 @@ namespace Prototipo1
 
         private void button6_Click_1(object sender, EventArgs e)
         {
+            this.Hide();
+            // Crea una instancia del nuevo formulario
+            Suministros suministros = new Suministros();
+            suministros.FormClosed += (s, args) => this.Show(); // Suscribe al evento FormClosed de Form2
+            // Muestra el nuevo formulario
+            suministros.ShowDialog();
+        }
+
+        private void label1_Click_2(object sender, EventArgs e)
+        {
 
         }
     }

@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Prototipo1
 {
-    public partial class Suministros : Form
+    public partial class submeReact : Form
     {
-        public Suministros()
+        public submeReact()
         {
             InitializeComponent();
             // Agregar los controladores de eventos para todos los botones
@@ -48,28 +48,27 @@ namespace Prototipo1
             // Muestra Form1 cuando Form2 se cierre
             this.Owner.Show();
         }
-        private void button1_Click(object sender, EventArgs e)
+        private void submeReact_Load(object sender, EventArgs e)
         {
-            submeReact submeReact = new submeReact();
-            submeReact.ShowDialog();
 
         }
 
-        private void Suministros_Load(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
-
+            registrarReactivo registrarReactivo = new registrarReactivo();
+            registrarReactivo.ShowDialog();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            submeIns submeIns = new submeIns();
-            submeIns.ShowDialog();
+            consReac consReac = new consReac();
+            consReac.ShowDialog();
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            submeExam submeExam = new submeExam();
-            submeExam.ShowDialog();
+            modReac modReac = new modReac();
+            modReac.ShowDialog();
         }
     }
 }

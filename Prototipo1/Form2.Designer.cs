@@ -70,11 +70,12 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Arial Narrow", 12F);
-            label1.Location = new Point(79, 218);
+            label1.Location = new Point(73, 218);
             label1.Name = "label1";
-            label1.Size = new Size(57, 20);
+            label1.Size = new Size(68, 20);
             label1.TabIndex = 24;
-            label1.Text = "Clientes";
+            label1.Text = "Pacientes";
+            label1.Click += label1_Click_2;
             // 
             // button3
             // 

@@ -1,6 +1,6 @@
 ﻿namespace Prototipo1
 {
-    partial class Suministros
+    partial class submeIns
     {
         /// <summary>
         /// Required designer variable.
@@ -43,19 +43,19 @@
             // label7
             // 
             label7.AutoSize = true;
-            label7.Location = new Point(34, 6);
+            label7.Location = new Point(34, 5);
             label7.Name = "label7";
             label7.Size = new Size(60, 15);
-            label7.TabIndex = 38;
+            label7.TabIndex = 54;
             label7.Text = "AmatreSis";
             // 
             // panel1
             // 
             panel1.Controls.Add(label8);
-            panel1.Location = new Point(0, 0);
+            panel1.Location = new Point(0, -1);
             panel1.Name = "panel1";
             panel1.Size = new Size(569, 25);
-            panel1.TabIndex = 39;
+            panel1.TabIndex = 55;
             // 
             // label8
             // 
@@ -70,40 +70,40 @@
             // 
             label3.AutoSize = true;
             label3.Font = new Font("Arial Narrow", 12F);
-            label3.Location = new Point(424, 188);
+            label3.Location = new Point(414, 187);
             label3.Name = "label3";
-            label3.Size = new Size(115, 20);
-            label3.TabIndex = 37;
-            label3.Text = "Tipos de Examen";
+            label3.Size = new Size(135, 20);
+            label3.TabIndex = 53;
+            label3.Text = "Modificar Instrumento";
             // 
             // label2
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Arial Narrow", 12F);
-            label2.Location = new Point(238, 188);
+            label2.Location = new Point(212, 187);
             label2.Name = "label2";
-            label2.Size = new Size(84, 20);
-            label2.TabIndex = 36;
-            label2.Text = "Instrumentos";
+            label2.Size = new Size(136, 20);
+            label2.TabIndex = 52;
+            label2.Text = "Consultar Instrumento";
             // 
             // label1
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Arial Narrow", 12F);
-            label1.Location = new Point(45, 188);
+            label1.Location = new Point(12, 187);
             label1.Name = "label1";
-            label1.Size = new Size(68, 20);
-            label1.TabIndex = 35;
-            label1.Text = "Reactivos";
+            label1.Size = new Size(134, 20);
+            label1.TabIndex = 51;
+            label1.Text = "Registrar Instrumento";
             // 
             // button3
             // 
             button3.BackgroundImage = Properties.Resources.Resultados;
             button3.BackgroundImageLayout = ImageLayout.Zoom;
-            button3.Location = new Point(414, 51);
+            button3.Location = new Point(414, 50);
             button3.Name = "button3";
             button3.Size = new Size(134, 118);
-            button3.TabIndex = 34;
+            button3.TabIndex = 50;
             button3.UseVisualStyleBackColor = true;
             button3.Click += button3_Click;
             // 
@@ -111,10 +111,10 @@
             // 
             button2.BackgroundImage = Properties.Resources.Pedidos1;
             button2.BackgroundImageLayout = ImageLayout.Zoom;
-            button2.Location = new Point(213, 51);
+            button2.Location = new Point(213, 50);
             button2.Name = "button2";
             button2.Size = new Size(134, 118);
-            button2.TabIndex = 33;
+            button2.TabIndex = 49;
             button2.UseVisualStyleBackColor = true;
             button2.Click += button2_Click;
             // 
@@ -123,18 +123,18 @@
             button1.BackgroundImage = Properties.Resources.Cliente2;
             button1.BackgroundImageLayout = ImageLayout.Zoom;
             button1.ForeColor = SystemColors.ControlText;
-            button1.Location = new Point(12, 51);
+            button1.Location = new Point(12, 50);
             button1.Name = "button1";
             button1.Size = new Size(134, 118);
-            button1.TabIndex = 32;
+            button1.TabIndex = 48;
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
             // 
-            // Suministros
+            // submeIns
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(575, 222);
+            ClientSize = new Size(564, 222);
             Controls.Add(label7);
             Controls.Add(panel1);
             Controls.Add(label3);
@@ -143,9 +143,8 @@
             Controls.Add(button3);
             Controls.Add(button2);
             Controls.Add(button1);
-            Name = "Suministros";
-            Text = "Suministros";
-            Load += Suministros_Load;
+            Name = "submeIns";
+            Text = "submeIns";
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             ResumeLayout(false);
