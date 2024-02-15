@@ -40,7 +40,7 @@
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(176, 61);
+            textBox1.Location = new Point(166, 61);
             textBox1.Margin = new Padding(3, 4, 3, 4);
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(246, 27);
@@ -49,7 +49,7 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(23, 65);
+            label2.Location = new Point(23, 64);
             label2.Name = "label2";
             label2.Size = new Size(147, 20);
             label2.TabIndex = 13;
@@ -59,7 +59,7 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(47, 12);
+            label1.Location = new Point(37, 12);
             label1.Name = "label1";
             label1.Size = new Size(347, 32);
             label1.TabIndex = 12;
@@ -78,7 +78,7 @@
             // 
             comboBox1.FormattingEnabled = true;
             comboBox1.Items.AddRange(new object[] { "Dirección", "Teléfono", "Correo" });
-            comboBox1.Location = new Point(176, 111);
+            comboBox1.Location = new Point(166, 111);
             comboBox1.Margin = new Padding(3, 4, 3, 4);
             comboBox1.Name = "comboBox1";
             comboBox1.Size = new Size(246, 28);
@@ -87,7 +87,7 @@
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(23, 164);
+            label4.Location = new Point(23, 163);
             label4.Name = "label4";
             label4.Size = new Size(89, 20);
             label4.TabIndex = 17;
@@ -95,7 +95,7 @@
             // 
             // textBox2
             // 
-            textBox2.Location = new Point(176, 160);
+            textBox2.Location = new Point(166, 160);
             textBox2.Margin = new Padding(3, 4, 3, 4);
             textBox2.Name = "textBox2";
             textBox2.Size = new Size(246, 27);
@@ -103,7 +103,7 @@
             // 
             // button1
             // 
-            button1.Location = new Point(181, 220);
+            button1.Location = new Point(171, 220);
             button1.Margin = new Padding(3, 4, 3, 4);
             button1.Name = "button1";
             button1.Size = new Size(86, 31);

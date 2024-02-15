@@ -45,7 +45,7 @@
             // 
             // button4
             // 
-            button4.Location = new Point(344, 237);
+            button4.Location = new Point(344, 199);
             button4.Margin = new Padding(3, 4, 3, 4);
             button4.Name = "button4";
             button4.Size = new Size(86, 31);
@@ -57,7 +57,7 @@
             // 
             comboBox2.FormattingEnabled = true;
             comboBox2.Items.AddRange(new object[] { "Tipo de Examen Placeholder" });
-            comboBox2.Location = new Point(194, 185);
+            comboBox2.Location = new Point(194, 154);
             comboBox2.Margin = new Padding(3, 4, 3, 4);
             comboBox2.Name = "comboBox2";
             comboBox2.Size = new Size(236, 28);
@@ -66,7 +66,7 @@
             // label7
             // 
             label7.AutoSize = true;
-            label7.Location = new Point(14, 189);
+            label7.Location = new Point(14, 158);
             label7.Name = "label7";
             label7.Size = new Size(174, 20);
             label7.TabIndex = 37;
@@ -74,7 +74,7 @@
             // 
             // richTextBox2
             // 
-            richTextBox2.Location = new Point(14, 632);
+            richTextBox2.Location = new Point(14, 623);
             richTextBox2.Margin = new Padding(3, 4, 3, 4);
             richTextBox2.Name = "richTextBox2";
             richTextBox2.Size = new Size(417, 117);
@@ -85,7 +85,7 @@
             // 
             label5.AutoSize = true;
             label5.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label5.Location = new Point(14, 595);
+            label5.Location = new Point(14, 574);
             label5.Name = "label5";
             label5.Size = new Size(159, 32);
             label5.TabIndex = 35;
@@ -95,7 +95,7 @@
             // 
             label3.AutoSize = true;
             label3.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label3.Location = new Point(14, 277);
+            label3.Location = new Point(14, 247);
             label3.Name = "label3";
             label3.Size = new Size(207, 32);
             label3.TabIndex = 34;
@@ -103,7 +103,7 @@
             // 
             // richTextBox1
             // 
-            richTextBox1.Location = new Point(14, 328);
+            richTextBox1.Location = new Point(14, 296);
             richTextBox1.Margin = new Padding(3, 4, 3, 4);
             richTextBox1.Name = "richTextBox1";
             richTextBox1.Size = new Size(417, 261);
@@ -112,7 +112,7 @@
             // 
             // button1
             // 
-            button1.Location = new Point(344, 125);
+            button1.Location = new Point(344, 106);
             button1.Margin = new Padding(3, 4, 3, 4);
             button1.Name = "button1";
             button1.Size = new Size(86, 31);
@@ -124,7 +124,7 @@
             // 
             comboBox1.FormattingEnabled = true;
             comboBox1.Items.AddRange(new object[] { "Tipo de Examen Placeholder" });
-            comboBox1.Location = new Point(194, 73);
+            comboBox1.Location = new Point(194, 61);
             comboBox1.Margin = new Padding(3, 4, 3, 4);
             comboBox1.Name = "comboBox1";
             comboBox1.Size = new Size(236, 28);
@@ -133,7 +133,7 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(14, 77);
+            label2.Location = new Point(14, 65);
             label2.Name = "label2";
             label2.Size = new Size(164, 20);
             label2.TabIndex = 30;
@@ -151,7 +151,7 @@
             // 
             // button3
             // 
-            button3.Location = new Point(210, 760);
+            button3.Location = new Point(210, 757);
             button3.Margin = new Padding(3, 4, 3, 4);
             button3.Name = "button3";
             button3.Size = new Size(86, 31);
@@ -162,7 +162,7 @@
             // 
             // button2
             // 
-            button2.Location = new Point(344, 760);
+            button2.Location = new Point(344, 757);
             button2.Margin = new Padding(3, 4, 3, 4);
             button2.Name = "button2";
             button2.Size = new Size(86, 31);
