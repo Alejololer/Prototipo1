@@ -67,7 +67,7 @@
             // comboBox1
             // 
             comboBox1.FormattingEnabled = true;
-            comboBox1.Items.AddRange(new object[] { "Dirección", "Teléfono", "Correo" });
+            comboBox1.Items.AddRange(new object[] { "IVA" });
             comboBox1.Location = new Point(175, 69);
             comboBox1.Margin = new Padding(3, 4, 3, 4);
             comboBox1.Name = "comboBox1";
