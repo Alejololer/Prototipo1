@@ -41,46 +41,45 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Arial", 12F);
-            label1.Location = new Point(88, 114);
+            label1.Location = new Point(70, 139);
             label1.Name = "label1";
-            label1.Size = new Size(66, 18);
+            label1.Size = new Size(82, 23);
             label1.TabIndex = 0;
             label1.Text = "Usuario:";
-            label1.Click += label1_Click;
             // 
             // label2
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Arial", 12F);
-            label2.Location = new Point(61, 160);
+            label2.Location = new Point(70, 211);
             label2.Name = "label2";
-            label2.Size = new Size(93, 18);
+            label2.Size = new Size(118, 23);
             label2.TabIndex = 1;
             label2.Text = "Contraseña:";
-            label2.Click += label2_Click;
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(160, 109);
+            textBox1.Location = new Point(194, 137);
+            textBox1.Margin = new Padding(3, 4, 3, 4);
             textBox1.Name = "textBox1";
-            textBox1.Size = new Size(214, 23);
+            textBox1.Size = new Size(244, 27);
             textBox1.TabIndex = 2;
             // 
             // textBox2
             // 
-            textBox2.Location = new Point(160, 155);
+            textBox2.Location = new Point(194, 209);
+            textBox2.Margin = new Padding(3, 4, 3, 4);
             textBox2.Name = "textBox2";
-            textBox2.Size = new Size(214, 23);
+            textBox2.Size = new Size(244, 27);
             textBox2.TabIndex = 3;
-            textBox2.TextChanged += textBox2_TextChanged;
             // 
             // button1
             // 
             button1.Font = new Font("Arial", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button1.ImageAlign = ContentAlignment.MiddleRight;
-            button1.Location = new Point(160, 211);
+            button1.Location = new Point(137, 281);
+            button1.Margin = new Padding(3, 4, 3, 4);
             button1.Name = "button1";
-            button1.Size = new Size(85, 23);
+            button1.Size = new Size(97, 31);
             button1.TabIndex = 4;
             button1.Text = "Iniciar Sesión";
             button1.UseVisualStyleBackColor = true;
@@ -89,9 +88,10 @@
             // button2
             // 
             button2.Font = new Font("Arial", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button2.Location = new Point(289, 211);
+            button2.Location = new Point(330, 281);
+            button2.Margin = new Padding(3, 4, 3, 4);
             button2.Name = "button2";
-            button2.Size = new Size(85, 23);
+            button2.Size = new Size(97, 31);
             button2.TabIndex = 5;
             button2.Text = "Cancelar";
             button2.UseVisualStyleBackColor = true;
@@ -101,17 +101,17 @@
             // 
             label3.AutoSize = true;
             label3.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label3.Location = new Point(280, 38);
+            label3.Location = new Point(205, 51);
             label3.Name = "label3";
-            label3.Size = new Size(129, 32);
+            label3.Size = new Size(161, 41);
             label3.TabIndex = 6;
             label3.Text = "AmatreSis";
             // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(500, 298);
+            ClientSize = new Size(571, 397);
             Controls.Add(label3);
             Controls.Add(button2);
             Controls.Add(button1);
@@ -119,9 +119,9 @@
             Controls.Add(textBox1);
             Controls.Add(label2);
             Controls.Add(label1);
+            Margin = new Padding(3, 4, 3, 4);
             Name = "Form1";
-            Text = "AmatreSis";
-            Load += Form1_Load;
+            Text = "Login";
             ResumeLayout(false);
             PerformLayout();
         }
