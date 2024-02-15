@@ -17,41 +17,10 @@ namespace Prototipo1
             InitializeComponent();
             this.StartPosition = FormStartPosition.CenterScreen;
         }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
         private void button1_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Datos actualizados correctamente", "Actualización de Datos", MessageBoxButtons.OK, MessageBoxIcon.Information);
             this.Close();
-        }
-
-        private void actualizarPaciente_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void actualizarPaciente_Load_1(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox2_TextChanged(object sender, EventArgs e)
-        {
-
         }
     }
 }
