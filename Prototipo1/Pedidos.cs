@@ -51,21 +51,10 @@ namespace Prototipo1
             this.Owner.Show();
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Pedidos_Load(object sender, EventArgs e)
-        {
-
-        }
-
         private void button1_Click(object sender, EventArgs e)
         {
             registrarPedido pedido = new registrarPedido();
             pedido.ShowDialog();
-
         }
 
         private void button2_Click(object sender, EventArgs e)

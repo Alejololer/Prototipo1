@@ -203,7 +203,6 @@
             Margin = new Padding(3, 4, 3, 4);
             Name = "Pacientes2";
             Text = "Paciente";
-            Load += Pacientes2_Load;
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             ResumeLayout(false);

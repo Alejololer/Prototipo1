@@ -56,11 +56,6 @@ namespace Prototipo1
             registrar.ShowDialog();
         }
 
-        private void Pacientes2_Load(object sender, EventArgs e)
-        {
-
-        }
-
         private void button2_Click(object sender, EventArgs e)
         {
             consultarPaciente consultar = new consultarPaciente();
