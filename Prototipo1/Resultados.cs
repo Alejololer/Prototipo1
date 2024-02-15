@@ -48,16 +48,6 @@ namespace Prototipo1
                 boton.BackColor = SystemColors.Control; // Restaurar el color de fondo por defecto
             }
         }
-        private void Resultados_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
 
         private void button1_Click(object sender, EventArgs e)
         {

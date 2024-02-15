@@ -20,11 +20,6 @@ namespace Prototipo1
             richTextBox1.ReadOnly = true;
         }
 
-        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
         private void button1_Click(object sender, EventArgs e)
         {
             // Obtener el texto seleccionado del ComboBox
@@ -45,16 +40,6 @@ namespace Prototipo1
             {
                 comboBox2.Items.Add(linea.Trim());
             }
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void registrarPedido_Load(object sender, EventArgs e)
-        {
-
         }
 
         private void button3_Click(object sender, EventArgs e)
