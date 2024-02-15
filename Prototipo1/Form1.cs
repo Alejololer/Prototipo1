@@ -29,7 +29,7 @@ namespace Prototipo1
             this.Hide();
             // Crea una instancia del nuevo formulario
             Form2 nuevoFormulario = new Form2();
-
+            nuevoFormulario.FormClosed += (s, args) => this.Show(); // Suscribe al evento FormClosed de Form2
             // Muestra el nuevo formulario
             nuevoFormulario.ShowDialog();
 

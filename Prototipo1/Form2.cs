@@ -45,7 +45,11 @@ namespace Prototipo1
                 boton.BackColor = SystemColors.Control; // Restaurar el color de fondo por defecto
             }
         }
-
+        private void Form2_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            // Muestra Form1 cuando Form2 se cierre
+            this.Owner.Show();
+        }
         private void Form2_Load(object sender, EventArgs e)
         {
 
@@ -87,12 +91,18 @@ namespace Prototipo1
 
         private void button2_Click(object sender, EventArgs e)
         {
-
+            this.Hide();
+            // Crea una instancia del nuevo formulario
+            Pedidos pedidos = new Pedidos();
+            pedidos.FormClosed += (s, args) => this.Show(); // Suscribe al evento FormClosed de Form2
+            // Muestra el nuevo formulario
+            pedidos.ShowDialog();
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-
+            Resultados resultados = new Resultados();
+            resultados.ShowDialog();
         }
 
         private void button5_Click(object sender, EventArgs e)

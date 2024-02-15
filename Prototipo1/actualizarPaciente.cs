@@ -43,5 +43,10 @@ namespace Prototipo1
         {
 
         }
+
+        private void actualizarPaciente_Load_1(object sender, EventArgs e)
+        {
+
+        }
     }
 }

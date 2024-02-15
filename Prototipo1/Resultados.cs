@@ -15,6 +15,72 @@ namespace Prototipo1
         public Resultados()
         {
             InitializeComponent();
+            this.StartPosition = FormStartPosition.CenterScreen;
+            foreach (Control control in Controls)
+            {
+                if (control is Button)
+                {
+                    control.MouseEnter += Boton_MouseEnter;
+                    control.MouseLeave += Boton_MouseLeave;
+                }
+            }
+        }
+
+        // Controlador de eventos para cuando el mouse entra en un botón
+        private void Boton_MouseEnter(object? sender, EventArgs e)
+        {
+            if (sender is Button boton)
+            {
+                boton.BackColor = Color.LightGray; // Cambiar el color de fondo
+            }
+        }
+
+        // Controlador de eventos para cuando el mouse sale de un botón
+        private void Boton_MouseLeave(object? sender, EventArgs e)
+        {
+            if (sender is Button boton)
+            {
+                boton.BackColor = SystemColors.Control; // Restaurar el color de fondo por defecto
+            }
+        }
+        private void Resultados_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form2_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            // Muestra Form1 cuando Form2 se cierre
+            this.Owner.Show();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            regisResult regisResult = new regisResult();
+            regisResult.ShowDialog();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            consResult consResult = new consResult();
+            consResult.ShowDialog();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            modResult modResult = new modResult();
+            modResult.ShowDialog();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            genInforme genInforme = new genInforme();
+            genInforme.ShowDialog();
         }
     }
 }
