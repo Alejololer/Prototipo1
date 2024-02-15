@@ -86,7 +86,7 @@
             button3.Size = new Size(134, 118);
             button3.TabIndex = 23;
             button3.UseVisualStyleBackColor = false;
-            button3.Click += this.button3_Click;
+            button3.Click += button3_Click;
             // 
             // button2
             // 
@@ -98,7 +98,7 @@
             button2.Size = new Size(134, 118);
             button2.TabIndex = 22;
             button2.UseVisualStyleBackColor = false;
-            button2.Click += this.button2_Click;
+            button2.Click += button2_Click;
             // 
             // button1
             // 
@@ -181,7 +181,7 @@
             button4.Size = new Size(134, 118);
             button4.TabIndex = 30;
             button4.UseVisualStyleBackColor = false;
-            button4.Click += this.button4_Click;
+            button4.Click += button4_Click;
             // 
             // button5
             // 
@@ -193,7 +193,7 @@
             button5.Size = new Size(134, 118);
             button5.TabIndex = 29;
             button5.UseVisualStyleBackColor = false;
-            button5.Click += this.button5_Click;
+            button5.Click += button5_Click;
             // 
             // button6
             // 

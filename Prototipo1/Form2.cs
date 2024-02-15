@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.DataFormats;
 
 namespace Prototipo1
 {
@@ -24,6 +25,7 @@ namespace Prototipo1
                     control.MouseLeave += Boton_MouseLeave;
                 }
             }
+            this.StartPosition = FormStartPosition.CenterScreen;
         }
 
         // Controlador de eventos para cuando el mouse entra en un botón
@@ -135,11 +137,12 @@ namespace Prototipo1
 
         private void button1_Click_1(object sender, EventArgs e)
         {
+            this.Hide();
             // Crea una instancia del nuevo formulario
             Pacientes2 pacientes = new Pacientes2();
-
+            pacientes.FormClosed += (s, args) => this.Show(); // Suscribe al evento FormClosed de Form2
             // Muestra el nuevo formulario
-            pacientes.Show();
+            pacientes.ShowDialog();
         }
 
         private void button6_Click_1(object sender, EventArgs e)

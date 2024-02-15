@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Prototipo1
 {
-    public partial class consultarPaciente : Form
+    public partial class actualizarPaciente : Form
     {
-        public consultarPaciente()
+        public actualizarPaciente()
         {
             InitializeComponent();
             this.StartPosition = FormStartPosition.CenterScreen;
@@ -28,13 +28,18 @@ namespace Prototipo1
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
-            MessageBox.Show("Paciente no encontrado", "Consulta de paciente", MessageBoxButtons.OK, MessageBoxIcon.Error);
 
         }
 
-        private void consultarPaciente_Load(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Datos actualizados correctamente", "Actualización de Datos", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            this.Close();
+        }
+
+        private void actualizarPaciente_Load(object sender, EventArgs e)
         {
 
         }

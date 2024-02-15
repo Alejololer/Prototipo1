@@ -37,6 +37,10 @@
             button3 = new Button();
             button2 = new Button();
             button1 = new Button();
+            button4 = new Button();
+            button5 = new Button();
+            label4 = new Label();
+            label5 = new Label();
             panel1.SuspendLayout();
             SuspendLayout();
             // 
@@ -70,7 +74,7 @@
             // 
             label3.AutoSize = true;
             label3.Font = new Font("Arial Narrow", 12F);
-            label3.Location = new Point(376, 205);
+            label3.Location = new Point(391, 188);
             label3.Name = "label3";
             label3.Size = new Size(180, 20);
             label3.TabIndex = 29;
@@ -80,7 +84,7 @@
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Arial Narrow", 12F);
-            label2.Location = new Point(180, 205);
+            label2.Location = new Point(191, 188);
             label2.Name = "label2";
             label2.Size = new Size(178, 20);
             label2.TabIndex = 28;
@@ -90,7 +94,7 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Arial Narrow", 12F);
-            label1.Location = new Point(20, 205);
+            label1.Location = new Point(20, 188);
             label1.Name = "label1";
             label1.Size = new Size(118, 20);
             label1.TabIndex = 27;
@@ -100,21 +104,23 @@
             // 
             button3.BackgroundImage = Properties.Resources.Resultados;
             button3.BackgroundImageLayout = ImageLayout.Zoom;
-            button3.Location = new Point(399, 51);
+            button3.Location = new Point(414, 51);
             button3.Name = "button3";
             button3.Size = new Size(134, 118);
             button3.TabIndex = 26;
             button3.UseVisualStyleBackColor = true;
+            button3.Click += button3_Click;
             // 
             // button2
             // 
             button2.BackgroundImage = Properties.Resources.Pedidos1;
             button2.BackgroundImageLayout = ImageLayout.Zoom;
-            button2.Location = new Point(202, 51);
+            button2.Location = new Point(213, 51);
             button2.Name = "button2";
             button2.Size = new Size(134, 118);
             button2.TabIndex = 25;
             button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
             // 
             // button1
             // 
@@ -128,11 +134,58 @@
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
             // 
+            // button4
+            // 
+            button4.BackgroundImage = Properties.Resources.Pedidos1;
+            button4.BackgroundImageLayout = ImageLayout.Zoom;
+            button4.Location = new Point(310, 236);
+            button4.Name = "button4";
+            button4.Size = new Size(134, 118);
+            button4.TabIndex = 33;
+            button4.UseVisualStyleBackColor = true;
+            button4.Click += button4_Click;
+            // 
+            // button5
+            // 
+            button5.BackgroundImage = Properties.Resources.Cliente2;
+            button5.BackgroundImageLayout = ImageLayout.Zoom;
+            button5.ForeColor = SystemColors.ControlText;
+            button5.Location = new Point(120, 236);
+            button5.Name = "button5";
+            button5.Size = new Size(134, 118);
+            button5.TabIndex = 32;
+            button5.UseVisualStyleBackColor = true;
+            button5.Click += button5_Click;
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Font = new Font("Arial Narrow", 12F);
+            label4.Location = new Point(338, 376);
+            label4.Name = "label4";
+            label4.Size = new Size(78, 20);
+            label4.TabIndex = 35;
+            label4.Text = "Dar de baja";
+            // 
+            // label5
+            // 
+            label5.AutoSize = true;
+            label5.Font = new Font("Arial Narrow", 12F);
+            label5.Location = new Point(151, 376);
+            label5.Name = "label5";
+            label5.Size = new Size(73, 20);
+            label5.TabIndex = 34;
+            label5.Text = "Dar de alta";
+            // 
             // Pacientes2
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(575, 242);
+            ClientSize = new Size(575, 416);
+            Controls.Add(label4);
+            Controls.Add(label5);
+            Controls.Add(button4);
+            Controls.Add(button5);
             Controls.Add(label7);
             Controls.Add(panel1);
             Controls.Add(label3);
@@ -161,5 +214,9 @@
         private Button button3;
         private Button button2;
         private Button button1;
+        private Button button4;
+        private Button button5;
+        private Label label4;
+        private Label label5;
     }
 }

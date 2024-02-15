@@ -5,7 +5,7 @@ namespace Prototipo1
         public Form1()
         {
             InitializeComponent();
-
+            this.StartPosition = FormStartPosition.CenterScreen;
             textBox2.PasswordChar = '*';
         }
 
@@ -26,14 +26,15 @@ namespace Prototipo1
 
         private void button1_Click(object sender, EventArgs e)
         {
+            this.Hide();
             // Crea una instancia del nuevo formulario
             Form2 nuevoFormulario = new Form2();
 
             // Muestra el nuevo formulario
-            nuevoFormulario.Show();
+            nuevoFormulario.ShowDialog();
 
             // Oculta el formulario actual
-            this.Hide();
+            
         }
 
         private void button2_Click(object sender, EventArgs e)
