@@ -33,10 +33,5 @@ namespace Prototipo1
 
             this.Close();
         }
-
-        private void genInforme_Load(object sender, EventArgs e)
-        {
-
-        }
     }
 }
