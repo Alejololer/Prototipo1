@@ -42,18 +42,18 @@
             // label7
             // 
             label7.AutoSize = true;
-            label7.Location = new Point(20, 93);
+            label7.Location = new Point(13, 118);
             label7.Name = "label7";
-            label7.Size = new Size(64, 15);
+            label7.Size = new Size(81, 20);
             label7.TabIndex = 40;
             label7.Text = "Reactivo 2:";
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(20, 54);
+            label2.Location = new Point(13, 71);
             label2.Name = "label2";
-            label2.Size = new Size(64, 15);
+            label2.Size = new Size(81, 20);
             label2.TabIndex = 39;
             label2.Text = "Reactivo 1:";
             // 
@@ -61,50 +61,52 @@
             // 
             label3.AutoSize = true;
             label3.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label3.Location = new Point(12, 9);
+            label3.Location = new Point(55, 12);
             label3.Name = "label3";
-            label3.Size = new Size(220, 25);
+            label3.Size = new Size(276, 32);
             label3.TabIndex = 41;
-            label3.Text = "Resultados del examen:";
+            label3.Text = "Resultados del examen";
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(90, 51);
+            textBox1.Location = new Point(93, 68);
+            textBox1.Margin = new Padding(3, 4, 3, 4);
             textBox1.Name = "textBox1";
-            textBox1.Size = new Size(100, 23);
+            textBox1.Size = new Size(114, 27);
             textBox1.TabIndex = 42;
             // 
             // textBox2
             // 
-            textBox2.Location = new Point(90, 90);
+            textBox2.Location = new Point(93, 115);
+            textBox2.Margin = new Padding(3, 4, 3, 4);
             textBox2.Name = "textBox2";
-            textBox2.Size = new Size(100, 23);
+            textBox2.Size = new Size(114, 27);
             textBox2.TabIndex = 43;
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(206, 54);
+            label1.Location = new Point(218, 71);
             label1.Name = "label1";
-            label1.Size = new Size(123, 15);
+            label1.Size = new Size(156, 20);
             label1.TabIndex = 44;
             label1.Text = "Rango normal: 10-100";
-            label1.Click += label1_Click;
             // 
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(206, 93);
+            label4.Location = new Point(218, 118);
             label4.Name = "label4";
-            label4.Size = new Size(123, 15);
+            label4.Size = new Size(156, 20);
             label4.TabIndex = 45;
             label4.Text = "Rango normal: 10-100";
             // 
             // button1
             // 
-            button1.Location = new Point(157, 124);
+            button1.Location = new Point(74, 165);
+            button1.Margin = new Padding(3, 4, 3, 4);
             button1.Name = "button1";
-            button1.Size = new Size(75, 23);
+            button1.Size = new Size(86, 31);
             button1.TabIndex = 46;
             button1.Text = "Registrar";
             button1.UseVisualStyleBackColor = true;
@@ -112,9 +114,10 @@
             // 
             // button2
             // 
-            button2.Location = new Point(251, 124);
+            button2.Location = new Point(218, 165);
+            button2.Margin = new Padding(3, 4, 3, 4);
             button2.Name = "button2";
-            button2.Size = new Size(75, 23);
+            button2.Size = new Size(86, 31);
             button2.TabIndex = 47;
             button2.Text = "Cancelar";
             button2.UseVisualStyleBackColor = true;
@@ -122,9 +125,9 @@
             // 
             // regisResult2
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(338, 161);
+            ClientSize = new Size(386, 215);
             Controls.Add(button2);
             Controls.Add(button1);
             Controls.Add(label4);
@@ -134,9 +137,9 @@
             Controls.Add(label3);
             Controls.Add(label7);
             Controls.Add(label2);
+            Margin = new Padding(3, 4, 3, 4);
             Name = "regisResult2";
-            Text = "regisResult2";
-            Load += regisResult2_Load;
+            Text = "Registrar Resultados de Examen";
             ResumeLayout(false);
             PerformLayout();
         }

@@ -19,20 +19,10 @@ namespace Prototipo1
 
         }
 
-        private void regisResult2_Load(object sender, EventArgs e)
-        {
-
-        }
-
         private void Form2_FormClosed(object sender, FormClosedEventArgs e)
         {
             // Muestra Form1 cuando Form2 se cierre
             this.Owner.Show();
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
         }
 
         private void button1_Click(object sender, EventArgs e)
