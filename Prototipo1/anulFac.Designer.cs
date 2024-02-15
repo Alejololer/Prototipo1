@@ -36,9 +36,10 @@
             // 
             // button1
             // 
-            button1.Location = new Point(296, 86);
+            button1.Location = new Point(337, 114);
+            button1.Margin = new Padding(3, 4, 3, 4);
             button1.Name = "button1";
-            button1.Size = new Size(75, 23);
+            button1.Size = new Size(86, 31);
             button1.TabIndex = 22;
             button1.Text = "Eliminar";
             button1.UseVisualStyleBackColor = true;
@@ -47,9 +48,9 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(58, 49);
+            label2.Location = new Point(29, 69);
             label2.Name = "label2";
-            label2.Size = new Size(49, 15);
+            label2.Size = new Size(59, 20);
             label2.TabIndex = 20;
             label2.Text = "Factura:";
             // 
@@ -57,33 +58,34 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(12, 9);
+            label1.Location = new Point(134, 12);
             label1.Name = "label1";
-            label1.Size = new Size(147, 25);
+            label1.Size = new Size(181, 32);
             label1.TabIndex = 19;
-            label1.Text = "Anular Factura:";
+            label1.Text = "Anular Factura";
             // 
             // comboBox1
             // 
             comboBox1.FormattingEnabled = true;
             comboBox1.Items.AddRange(new object[] { "Factura 1", "Factura 2", "Factura 3" });
-            comboBox1.Location = new Point(113, 46);
+            comboBox1.Location = new Point(129, 65);
+            comboBox1.Margin = new Padding(3, 4, 3, 4);
             comboBox1.Name = "comboBox1";
-            comboBox1.Size = new Size(258, 23);
+            comboBox1.Size = new Size(294, 28);
             comboBox1.TabIndex = 23;
             // 
             // anulFac
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(393, 125);
+            ClientSize = new Size(449, 167);
             Controls.Add(comboBox1);
             Controls.Add(button1);
             Controls.Add(label2);
             Controls.Add(label1);
+            Margin = new Padding(3, 4, 3, 4);
             Name = "anulFac";
-            Text = "anulFac";
-            Load += anulFac_Load;
+            Text = "Anular Factura";
             ResumeLayout(false);
             PerformLayout();
         }
