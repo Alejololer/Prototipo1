@@ -30,6 +30,5 @@ namespace Prototipo1
 
             // Oculta el formulario actual
         }
-        // estio es una prueba para git 222222
     }
 }
