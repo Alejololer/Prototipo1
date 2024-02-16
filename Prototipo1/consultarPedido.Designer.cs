@@ -36,30 +36,33 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(103, 12);
+            label1.BackColor = Color.Transparent;
+            label1.Font = new Font("Modern No. 20", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label1.Location = new Point(90, 9);
             label1.Name = "label1";
-            label1.Size = new Size(236, 32);
+            label1.Size = new Size(189, 24);
             label1.TabIndex = 12;
             label1.Text = "Pedidos Pendientes";
             // 
             // richTextBox1
             // 
-            richTextBox1.Location = new Point(14, 49);
-            richTextBox1.Margin = new Padding(3, 4, 3, 4);
+            richTextBox1.Font = new Font("Modern No. 20", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            richTextBox1.Location = new Point(12, 37);
             richTextBox1.Name = "richTextBox1";
-            richTextBox1.Size = new Size(414, 359);
+            richTextBox1.Size = new Size(363, 270);
             richTextBox1.TabIndex = 17;
             richTextBox1.Text = resources.GetString("richTextBox1.Text");
+            richTextBox1.TextChanged += richTextBox1_TextChanged;
             // 
             // consultarPedido
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(442, 425);
+            BackgroundImage = Properties.Resources.manodocu;
+            ClientSize = new Size(387, 319);
             Controls.Add(richTextBox1);
             Controls.Add(label1);
-            Margin = new Padding(3, 4, 3, 4);
+            Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "consultarPedido";
             Text = "Consultar Pedido";
             ResumeLayout(false);
