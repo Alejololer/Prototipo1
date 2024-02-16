@@ -30,5 +30,11 @@ namespace Prototipo1
 
             // Oculta el formulario actual
         }
+
+        private void actPedido_Load(object sender, EventArgs e)
+        {
+
+        }
+        // estio es una prueba para git 223 agrego imaeges
     }
 }
