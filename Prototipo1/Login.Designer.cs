@@ -1,6 +1,6 @@
 ﻿namespace Prototipo1
 {
-    partial class Form1
+    partial class Login
     {
         /// <summary>
         ///  Required designer variable.
@@ -107,7 +107,7 @@
             label3.TabIndex = 6;
             label3.Text = "AmatreSis";
             // 
-            // Form1
+            // Login
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -120,8 +120,9 @@
             Controls.Add(label2);
             Controls.Add(label1);
             Margin = new Padding(3, 4, 3, 4);
-            Name = "Form1";
+            Name = "Login";
             Text = "Login";
+            Load += Login_Load;
             ResumeLayout(false);
             PerformLayout();
         }

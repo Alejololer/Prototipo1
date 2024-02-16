@@ -103,7 +103,7 @@
             // 
             // button3
             // 
-            button3.BackgroundImage = Properties.Resources.Resultados;
+            button3.BackgroundImage = Properties.Resources.actualizar;
             button3.BackgroundImageLayout = ImageLayout.Zoom;
             button3.Location = new Point(500, 67);
             button3.Margin = new Padding(3, 4, 3, 4);
@@ -115,7 +115,7 @@
             // 
             // button2
             // 
-            button2.BackgroundImage = Properties.Resources.Pedidos1;
+            button2.BackgroundImage = Properties.Resources.buscar;
             button2.BackgroundImageLayout = ImageLayout.Zoom;
             button2.Location = new Point(243, 67);
             button2.Margin = new Padding(3, 4, 3, 4);
@@ -127,7 +127,7 @@
             // 
             // button1
             // 
-            button1.BackgroundImage = Properties.Resources.Cliente2;
+            button1.BackgroundImage = Properties.Resources.agregar_usuario;
             button1.BackgroundImageLayout = ImageLayout.Zoom;
             button1.ForeColor = SystemColors.ControlText;
             button1.Location = new Point(3, 67);
@@ -140,7 +140,7 @@
             // 
             // button4
             // 
-            button4.BackgroundImage = Properties.Resources.Pedidos1;
+            button4.BackgroundImage = Properties.Resources.archivo1;
             button4.BackgroundImageLayout = ImageLayout.Zoom;
             button4.Location = new Point(359, 316);
             button4.Margin = new Padding(3, 4, 3, 4);
@@ -152,7 +152,7 @@
             // 
             // button5
             // 
-            button5.BackgroundImage = Properties.Resources.Cliente2;
+            button5.BackgroundImage = Properties.Resources.alta_calidad;
             button5.BackgroundImageLayout = ImageLayout.Zoom;
             button5.ForeColor = SystemColors.ControlText;
             button5.Location = new Point(142, 316);
