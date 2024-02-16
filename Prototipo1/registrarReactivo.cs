@@ -12,6 +12,13 @@ namespace Prototipo1
 {
     public partial class registrarReactivo : Form
     {
+        //declaracion de variables 
+        char nombreReactivo;
+        int cantidadReactivo;
+        char fechaCaducidadReactivo;
+        int rangoMinReactivo;
+        int rangoMaxReactivo;
+
         public registrarReactivo()
         {
             InitializeComponent();

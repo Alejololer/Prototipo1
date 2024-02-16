@@ -35,12 +35,12 @@
             label3 = new Label();
             label2 = new Label();
             label1 = new Label();
-            textBox3 = new TextBox();
             label4 = new Label();
             textBox4 = new TextBox();
             label5 = new Label();
             textBox5 = new TextBox();
             label6 = new Label();
+            dtpFechaCaducidadReactivo = new DateTimePicker();
             SuspendLayout();
             // 
             // button2
@@ -109,14 +109,6 @@
             label1.TabIndex = 17;
             label1.Text = "Datos del Reactivo";
             // 
-            // textBox3
-            // 
-            textBox3.Location = new Point(162, 159);
-            textBox3.Margin = new Padding(3, 4, 3, 4);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(261, 27);
-            textBox3.TabIndex = 25;
-            // 
             // label4
             // 
             label4.AutoSize = true;
@@ -160,16 +152,23 @@
             label6.TabIndex = 26;
             label6.Text = "Mínimo rango normal:";
             // 
+            // dtpFechaCaducidadReactivo
+            // 
+            dtpFechaCaducidadReactivo.Location = new Point(162, 159);
+            dtpFechaCaducidadReactivo.Name = "dtpFechaCaducidadReactivo";
+            dtpFechaCaducidadReactivo.Size = new Size(261, 27);
+            dtpFechaCaducidadReactivo.TabIndex = 30;
+            // 
             // registrarReactivo
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(442, 345);
+            Controls.Add(dtpFechaCaducidadReactivo);
             Controls.Add(textBox4);
             Controls.Add(label5);
             Controls.Add(textBox5);
             Controls.Add(label6);
-            Controls.Add(textBox3);
             Controls.Add(label4);
             Controls.Add(button2);
             Controls.Add(button1);
@@ -194,11 +193,11 @@
         private Label label3;
         private Label label2;
         private Label label1;
-        private TextBox textBox3;
         private Label label4;
         private TextBox textBox4;
         private Label label5;
         private TextBox textBox5;
         private Label label6;
+        private DateTimePicker dtpFechaCaducidadReactivo;
     }
 }
