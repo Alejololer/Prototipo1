@@ -35,6 +35,5 @@ namespace Prototipo1
         {
 
         }
-        // estio es una prueba para git 223 agrego imaeges
     }
 }
