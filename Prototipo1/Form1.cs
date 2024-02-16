@@ -37,14 +37,6 @@ namespace Prototipo1
             
         }
 
-        private void button2_Click(object sender, EventArgs e)
-        {
-            // Enviar un mensaje
-            MessageBox.Show("Hasta luego",null, MessageBoxButtons.OK, MessageBoxIcon.Error);
-            // Cerrar el programa
-            Application.Exit();
-        }
-
         private void textBox2_TextChanged(object sender, EventArgs e)
         {
         }

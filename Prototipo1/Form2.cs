@@ -33,7 +33,7 @@ namespace Prototipo1
         {
             if (sender is Button boton)
             {
-                boton.BackColor = Color.LightGray; // Cambiar el color de fondo
+                boton.BackColor = Color.Transparent; // Cambiar el color de fondo
             }
         }
 
@@ -42,7 +42,7 @@ namespace Prototipo1
         {
             if (sender is Button boton)
             {
-                boton.BackColor = SystemColors.Control; // Restaurar el color de fondo por defecto
+                boton.BackColor = Color.Transparent; // Restaurar el color de fondo por defecto
             }
         }
         private void Form2_FormClosed(object sender, FormClosedEventArgs e)
@@ -109,6 +109,11 @@ namespace Prototipo1
             suministros.FormClosed += (s, args) => this.Show(); // Suscribe al evento FormClosed de Form2
             // Muestra el nuevo formulario
             suministros.ShowDialog();
+        }
+
+        private void Form2_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
