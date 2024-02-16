@@ -57,6 +57,7 @@
             // label2
             // 
             label2.AutoSize = true;
+            label2.BackColor = Color.Transparent;
             label2.Location = new Point(10, 50);
             label2.Name = "label2";
             label2.Size = new Size(52, 15);
@@ -66,6 +67,7 @@
             // label1
             // 
             label1.AutoSize = true;
+            label1.BackColor = Color.Transparent;
             label1.Font = new Font("Modern No. 20", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label1.Location = new Point(79, 9);
             label1.Name = "label1";
