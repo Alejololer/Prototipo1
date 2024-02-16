@@ -45,7 +45,7 @@ namespace Prototipo1
         {
             if (sender is Button boton)
             {
-                boton.BackColor = SystemColors.Control; // Restaurar el color de fondo por defecto
+                boton.BackColor = Color.Transparent; // Restaurar el color de fondo por defecto
             }
         }
 

@@ -30,5 +30,10 @@ namespace Prototipo1
 
             // Oculta el formulario actual
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
