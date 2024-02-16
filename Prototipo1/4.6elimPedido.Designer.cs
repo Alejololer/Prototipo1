@@ -1,6 +1,6 @@
 ﻿namespace Prototipo1
 {
-    partial class actPedido
+    partial class elimPedido
     {
         /// <summary>
         /// Required designer variable.
@@ -36,60 +36,60 @@
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(154, 47);
+            textBox1.Location = new Point(162, 64);
+            textBox1.Margin = new Padding(3, 4, 3, 4);
             textBox1.Name = "textBox1";
-            textBox1.Size = new Size(216, 23);
-            textBox1.TabIndex = 22;
+            textBox1.Size = new Size(260, 27);
+            textBox1.TabIndex = 17;
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.BackColor = Color.Transparent;
-            label2.Location = new Point(22, 49);
+            label2.Location = new Point(9, 67);
             label2.Name = "label2";
-            label2.Size = new Size(116, 15);
-            label2.TabIndex = 21;
+            label2.Size = new Size(147, 20);
+            label2.TabIndex = 16;
             label2.Text = "Cédula de Identidad:";
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.BackColor = Color.Transparent;
             label1.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(51, 9);
+            label1.Location = new Point(127, 9);
             label1.Name = "label1";
-            label1.Size = new Size(255, 25);
-            label1.TabIndex = 20;
-            label1.Text = "Actualizar Datos del Pedido";
+            label1.Size = new Size(194, 32);
+            label1.TabIndex = 15;
+            label1.Text = "Eliminar Pedido";
             // 
             // button1
             // 
-            button1.Location = new Point(296, 82);
+            button1.Location = new Point(338, 114);
+            button1.Margin = new Padding(3, 4, 3, 4);
             button1.Name = "button1";
-            button1.Size = new Size(75, 23);
-            button1.TabIndex = 23;
-            button1.Text = "Consultar";
+            button1.Size = new Size(86, 31);
+            button1.TabIndex = 18;
+            button1.Text = "Eliminar";
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
             // 
-            // actPedido
+            // elimPedido
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackgroundImage = Properties.Resources.fondoprin;
-            ClientSize = new Size(393, 127);
+            ClientSize = new Size(449, 167);
             Controls.Add(button1);
             Controls.Add(textBox1);
             Controls.Add(label2);
             Controls.Add(label1);
-            Name = "actPedido";
-            Text = "Actualizar Pedido";
-            Load += actPedido_Load;
+            Margin = new Padding(3, 4, 3, 4);
+            Name = "elimPedido";
+            Text = "Eliminar Pedido";
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
+
         private TextBox textBox1;
         private Label label2;
         private Label label1;
