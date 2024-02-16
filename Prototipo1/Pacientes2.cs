@@ -75,8 +75,13 @@ namespace Prototipo1
         }
         private void button4_Click(object sender, EventArgs e)
         {
-            darDeBaja baja = new darDeBaja();   
+            darDeBaja baja = new darDeBaja();
             baja.ShowDialog();
+        }
+
+        private void Pacientes2_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

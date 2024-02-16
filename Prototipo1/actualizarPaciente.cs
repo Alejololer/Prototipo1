@@ -22,5 +22,10 @@ namespace Prototipo1
             MessageBox.Show("Datos actualizados correctamente", "Actualización de Datos", MessageBoxButtons.OK, MessageBoxIcon.Information);
             this.Close();
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
